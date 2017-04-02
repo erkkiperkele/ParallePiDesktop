@@ -10,7 +10,7 @@ public:
 private:
     static bool FindIsInCircle(float x, float y);
 
-    static void printNumberOfThreads(int actualThreadNumber);
+    static void Print(std::string message, int number);
 };
 
 
